@@ -80,10 +80,13 @@ print(output_g)
 
 
 # 종합
+#기호를 뒤로 밀기
 output_h = "{:+5d}".format(12)
 output_i = "{:+5d}".format(-12)
+#기호를 앞으로 밀기
 output_j = "{:=+5d}".format(12)
 output_k = "{:=+5d}".format(-12)
+#기호를 앞으로 공백은 0으로 채우기
 output_l = "{:+05d}".format(12)
 output_m = "{:+05d}".format(-12)
 
