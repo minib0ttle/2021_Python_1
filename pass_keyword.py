@@ -2,6 +2,7 @@
 
 if 0 :
     print("0은 True로 변환되는 값이다.")
+else :
     print("0은 False로 변환되는 값이다.")
 
 if "" :
