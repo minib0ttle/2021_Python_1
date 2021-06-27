@@ -25,3 +25,44 @@ def return_test():
     print("A의 위치입니다.")
     return
     print("B의 위치입니다.")
+
+return_test()
+
+# 자료와 함께 리턴하기
+def return_exe():
+    return 100
+
+value = return_exe()
+print(value)
+
+# 아무것도 리턴하지 않기
+
+def return_emp():
+    return
+
+value = return_emp()
+print(value)
+
+# None 출력
+# '아무것도 없다'를 의미함.
+
+def sum_all_ver1(start, end):
+    output =0
+    for i in range(start, end+1):
+        output += i
+    return output
+
+print("0 ~ 100 sum = ",sum_all(0,100))
+
+def sum_all_ver2(start=0, end=100, step =1):
+    output =0
+    for i in range(start, end+1, step):
+        output += i
+    return output
+
+print("A.", sum_all_ver2(0, 100, 10))
+print("B.", sum_all_ver2(end=100))
+print("C.", sum_all_ver2(end=100 ,step=2))
+
+
+
