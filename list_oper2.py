@@ -45,3 +45,22 @@ print(list_d)
 list_d =[0, 1, 2, 3, 4, 5, 6]
 del list_d[3:] #  3을 기준(3번째포함) 오른쪽 요소 다 삭제
 print(list_d)
+
+# 2. 값으로 제거하기
+# remove() 함수 이용
+# list.remove(value)
+
+list_q = [1, 2, 1, 2]
+list_q.remove(2) #왼쪽에서 부터 제일먼저 찾은 값이 2인 리스트 요소 삭제
+print(list_q)
+#반복문과 조합해서 구현도 가능
+
+#모두제거하는 clear() 함수
+#list.clear()
+
+list_a.clear()
+print(list_a)
+#모두제거됨
+#리스트안에 남아있는 요소가 없다.
+
+
