@@ -2,7 +2,7 @@ count = 0
 
 def fibonacci(n):
     print("fibonacci({})를 구합니다.".format(n))
-    global counter
+    global counter #UnboundLocalError global 키워드 사용
     counter +=1
 
     if n==1:
