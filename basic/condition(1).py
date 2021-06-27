@@ -6,7 +6,7 @@ last_num = number[-1]
 last_num = int(last_num)
 
 if last_num == 0 \
-    or last_num == 2 \ 
+    or last_num == 2 \
     or last_num == 4 \ 
     or last_num == 6 \ 
     or last_num == 8 :
