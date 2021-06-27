@@ -42,5 +42,24 @@ def print_y_times(value, n=2):
 # 함수를 호출합니다.
 
 print_y_times("안녕하세요")
-    
 
+# n을 입력하지 않을 경우 기본값이 2로 들어가게됨
+#그러므로 value를 2번 출력하게된다.
+
+
+#------------키워드 매개변수
+# 가변매개변수와 기본매개변수를 동시에 사용하게 만들 수 있음
+
+def print_z_times(*values, n=2):
+    # n번 반복합니다
+    for i in range(n):
+        for value in values:
+            print(value)
+        # 단순한 줄바꿈
+        print()
+
+#함수를 호출하기
+print_z_times("안녕하세요", "즐거운", "파이썬 프로그래밍", n=3)
+
+# 매개변수 이름을 지정해서 입력하는 매개변수
+# 키워드 매개변수라고 함

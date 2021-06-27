@@ -16,3 +16,12 @@ test(c=10, a=100, b= 200)
 
 # 키워드 매개변수로 일부 매개변수만 지정한 형태
 test(10, c=200)
+
+# return
+
+# 자료 없이 리턴하기
+
+def return_test():
+    print("A의 위치입니다.")
+    return
+    print("B의 위치입니다.")
